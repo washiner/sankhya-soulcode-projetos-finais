@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Imagens</title>
+    <link rel="stylesheet" href="/GALERIA-IMAGEM-MODAL/style.css">
+    <script defer src="/GALERIA-IMAGEM-MODAL/script.js"></script>
+</head>
+<body>
+    <h1>Galeria de Imagens</h1>
+    <div id="gallery">
+        <!-- Miniaturas de imagens -->
+        <img src="/GALERIA-IMAGEM-MODAL/assest/1.jpg" class="thumbnail" alt="Img">
+        <img src="/GALERIA-IMAGEM-MODAL/assest/2.jpg" class="thumbnail" alt="Img">
+        <img src="/GALERIA-IMAGEM-MODAL/assest/3.jpg" class="thumbnail" alt="Img">
+    </div>
+
+    <!-- Modal para exibir imagem em tamanho maior -->
+    <div id="modal" class="modal">
+        <span id="closeModal" class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div id="caption"></div>
+        <button id="prevButton" class="nav-button">Anterior</button>
+        <button id="nextButton" class="nav-button">Proxima</button>
+    </div>
+</body>
+</html>

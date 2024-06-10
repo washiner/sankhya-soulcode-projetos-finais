@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/TABELA-DADOS/style.css">
+    <script defer src="/TABELA-DADOS/script.js"></script>
+</head>
+<body>
+    <h1>Tabela de Dados</h1>
+    <div id="filters">
+        <input type="text" id="nameFilter" placeholder="Filtrar por nome">
+        <input type="text" id="ageFilter" placeholder="Filtrar por idade">
+    </div>
+    <table id="dataTable">
+        <thead>
+            <tr>
+                <th onclick="sortTable(0)">Nome</th>
+                <th onclick="sortTable(1)">Idade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Tabela sera preenchidos pelo JavaScript -->
+        </tbody>
+    </table>
+</body>
+</html>

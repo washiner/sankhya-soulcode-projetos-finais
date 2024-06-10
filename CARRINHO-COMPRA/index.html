@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CARRINHO-COMPRA/style.css">
+    <script defer src="/CARRINHO-COMPRA/script.js"></script>
+</head>
+<body>
+    <h1>Simulador de Carrinho de Compras</h1>
+    <div id="products">
+        <h2>Produtos</h2>
+        <div class="product" data-name="Camisa" data-price="70">
+            <span>Camisa - R$70,00</span>
+            <button class="add-to-cart">Adicionar ao Carrinho</button>
+        </div>
+        <div class="product" data-name="Calça" data-price="145">
+            <span>Calça - R$145,00</span>
+            <button class="add-to-cart">Adicionar ao Carrinho</button>
+        </div>
+        <div class="product" data-name="Cueca" data-price="29">
+            <span>Cueca - R$29,00</span>
+            <button class="add-to-cart">Adicionar ao Carrinho</button>
+        </div>
+    </div>
+    <div id="cart">
+        <h2>Carrinho</h2>
+        <table id="cartTable">
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Quantidade</th>
+                    <th>Preço</th>
+                    <th>Remover</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!--JavaScript direto -->
+            </tbody>
+        </table>
+        <div id="total">
+            Total: R$<span id="totalAmount">0.00</span>
+        </div>
+    </div>
+</body>
+</html>

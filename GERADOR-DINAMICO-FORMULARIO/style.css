@@ -1,0 +1,31 @@
+body {
+    font-family: 'Lucida Sans';
+    margin: 24px;
+}
+
+#formContainer {
+    margin-top: 24px;
+}
+
+button {
+    padding: 12px;
+    font-size: 18px;
+    margin: 8px;
+}
+
+.field-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.field-container input {
+    margin-right: 12px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.field-container button {
+    padding: 8px;
+    font-size: 16px;
+}
