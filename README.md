@@ -1,6 +1,6 @@
 # Meus Projetos de JavaScript
 
-Este repositório contém uma coleção de projetos simples em JavaScript que foram desenvolvidos como exemplos didáticos. Cada projeto está separado em sua própria pasta e pode ser visualizado ao clonar este repositório e abrir os arquivos HTML em um navegador.
+Este repositório contém uma coleção de projetos simples em JavaScript que foram desenvolvidos como exemplos didáticos. Esses projetos são o resultado da atividade de JavaScript do bootcamp da Soulcode com a Sankhya. Cada projeto está separado em sua própria pasta e pode ser visualizado ao clonar este repositório e abrir os arquivos HTML em um navegador.
 
 ## Projetos
 
